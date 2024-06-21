@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adres Bilgisi</title>
+  <link rel="stylesheet" href="assets/css/adres.css">
+  <script src="assets/js/adres.js" defer></script>
+</head>
+<body>
+
+  <form class="adresForm">
+
+    <div class="form-item">
+      <label for="name">Adınız: </label>
+      <input type="text" name="name">
+    </div>
+
+    <div class="form-item">
+      <label for="lastname">Soyadınız: </label>
+      <input type="text" name="lastname">
+    </div>
+
+    <div class="form-item">
+      <label for="phonenumber">Telefon Numarası: </label>
+      <input type="tel" name="phonenumber" maxlength="12">
+    </div>
+
+    <div class="form-item">
+      <label for="adres">Adres: </label>
+      <input type="text" name="adres">
+    </div>
+
+    <button class="add" type="submit">Listeye Ekle</button>
+    <button class="delete">Listeyi Sil</button>
+
+  </form>
+  
+    <div class="adresList"></div>
+
+</body>
+</html>
